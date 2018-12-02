@@ -23,7 +23,7 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249078091804020&version=v2.0";
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249078091804020&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -53,10 +53,11 @@
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right" >
                   <li class="active"><a href="#home">Home</a></li>
+                 <li><a href="#googleForm">Contact Form</a></li>
                  <li><a href="#about">About</a></li>
                  <li><a href="#playlist">Playlist</a></li>
                  <li><a href="#gallery">Gallery</a></li>
-                 <li><a href="#contact">Contact</a></li>
+                 <li><a href="#contact">Email/Facebook</a></li>
               </ul>
             </div>
             <!-- #Nav Ends -->
@@ -106,6 +107,14 @@
 
 <!-- blockblack -->
 <div class="blockblack">
+
+<!-- Google Form -->
+<div id="googleForm" class="spacer">
+<h3><span class="glyphicon glyphicon-user"></span> Contact Form</h3>
+<div class="row myform">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1sFQiJMJJ4GAtz57c2VHxlAn7SNgI1f-KEyMYTVGVNwogyA/viewform?embedded=true" width="640" height="2184" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
+</div>
 
 <!-- About Starts -->
 <div id="about" class="spacer">
@@ -239,7 +248,7 @@ Copyright 2018 DJ RENNA.
 
 
 
-  <script src="https://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript" ></script>
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript" ></script>
   <!-- boostrap -->
   <script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
   <script src="assets/scripts/plugins.js" type="text/javascript"></script>
