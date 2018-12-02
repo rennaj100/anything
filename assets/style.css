@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
 
 body {font:normal 16px/22px 'Carrois Gothic',Arial,Helvetica;	background:#111;color: #ccc;}
 
@@ -48,6 +48,11 @@ a:hover{color:#fff;text-decoration:none}
 /*nav*/
 
 
+.myform{
+  display:flex;
+  justify-content: center;
+}
+
 #Gallery{
 
 }
@@ -61,8 +66,8 @@ a:hover{color:#fff;text-decoration:none}
 }
 
 .galitem img{
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   padding-bottom: 25px;
 }
 
