@@ -23,7 +23,7 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249078091804020&version=v2.0";
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249078091804020&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -109,13 +109,17 @@
 <div class="blockblack">
 
 <!-- Google Form -->
+<!--
 <div id="googleForm" class="spacer">
 <h3><span class="glyphicon glyphicon-user"></span> Contact Form</h3>
 <div class="row myform">
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1sFQiJMJJ4GAtz57c2VHxlAn7SNgI1f-KEyMYTVGVNwogyA/viewform?embedded=true" width="640" height="2184" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
 </div>
-
+-->
+<div id="container_btnBookNow">
+  <a class="btnBookNow" type="button" href="https://docs.google.com/forms/d/e/1FAIpQLSc1sFQiJMJJ4GAtz57c2VHxlAn7SNgI1f-KEyMYTVGVNwogyA/viewform?usp=sf_link">Book Now!</a>
+</div>
 <!-- About Starts -->
 <div id="about" class="spacer">
 <h3><span class="glyphicon glyphicon-user"></span> About Me</h3>
@@ -203,6 +207,7 @@ One of my favorite things as a DJ is looking up from the booth and seeing everyo
           <br>
           <a href="https://www.facebook.com/djrennaE/" class="fa fa-facebook"></a>
         </p>
+        <a id="container_btnBookNow" class="btnBookNow" type="button" href="https://docs.google.com/forms/d/e/1FAIpQLSc1sFQiJMJJ4GAtz57c2VHxlAn7SNgI1f-KEyMYTVGVNwogyA/viewform?usp=sf_link">Contact Now!</a>
       </div>
   </div>
 
