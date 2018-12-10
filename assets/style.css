@@ -57,6 +57,11 @@ a:hover{color:#fff;text-decoration:none}
 
 }
 
+.galleryRow > .col-md-3 {
+  padding-left: auto;
+  padding-right: auto;
+}
+
 .gallery_items{
   display: flex;
   flex-flow: row wrap;
@@ -66,11 +71,12 @@ a:hover{color:#fff;text-decoration:none}
 }
 
 .galitem img{
-  height: 300px;
-  width: 300px;
+  max-height: 250px;
+  max-width: 300px;
   padding-bottom: 25px;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
 }
-
 
 /* Style all font awesome icons */
 .fa {
